@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "advent_of_code_2022_billie"
+version = "0.0.0a"
+description = "My advent of code repository"
+authors = ["Billie Lynch <29699289+billielynch@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.8"
+mypy = "^0.991"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
